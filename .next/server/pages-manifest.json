@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/services": "pages/services.js",
-  "/about": "pages/about.js"
+  "/menu-coffee": "pages/menu-coffee.js",
+  "/menu-restaurant": "pages/menu-restaurant.js",
+  "/reservation": "pages/reservation.js"
 }

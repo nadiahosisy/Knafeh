@@ -173,9 +173,9 @@ const Header = () => {
             <span />
           </a>
           {/* כפתור */}
-          <Link href="reservation" className="kf-btn h-btn">
+          {/* <Link href="reservation" className="kf-btn h-btn">
             <span>הזמן שולחן</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
