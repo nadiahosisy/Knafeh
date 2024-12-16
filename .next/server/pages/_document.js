@@ -1,75 +1,182 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_document";
-exports.ids = ["pages/_document"];
+exports.id = 660;
+exports.ids = [660];
 exports.modules = {
 
-/***/ "./pages/_document.js":
-/*!****************************!*\
-  !*** ./pages/_document.js ***!
-  \****************************/
+/***/ 7669:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Document)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Document() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n        lang: \"he\",\n        dir: \"rtl\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Kaffen - Cafe & Restaurant React NextJS Template\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 7,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"Content-Type\",\n                        content: \"text/html; charset=utf-8\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 8,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"X-UA-Compatible\",\n                        content: \"IE=edge\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 9,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"HandheldFriendly\",\n                        content: \"true\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"preconnect\",\n                        href: \"https://fonts.googleapis.com\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"preconnect\",\n                        href: \"https://fonts.gstatic.com\",\n                        crossOrigin: true\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 13,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"styles/bootstrap.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"fonts/font-awesome/css/font-awesome.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 25,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"fonts/font-awesome/css/line-awesome.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"styles/animate.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"styles/magnific-popup.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"styles/splitting.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"styles/swiper.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 55,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"style.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 61,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 64,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                        lineNumber: 65,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n                lineNumber: 63,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Nadia\\\\Desktop\\\\betHaknafeh\\\\betHaknafeh-first-vs\\\\kaffen\\\\pages\\\\_document.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fZG9jdW1lbnQuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTZEO0FBRTlDLFNBQVNJO0lBQ3RCLHFCQUNFLDhEQUFDSCwrQ0FBSUE7UUFBQ0ksTUFBSztRQUFLQyxLQUFJOzswQkFDbEIsOERBQUNOLCtDQUFJQTs7a0NBQ0gsOERBQUNPO2tDQUFNOzs7Ozs7a0NBQ1AsOERBQUNDO3dCQUFLQyxXQUFVO3dCQUFlQyxTQUFROzs7Ozs7a0NBQ3ZDLDhEQUFDRjt3QkFBS0MsV0FBVTt3QkFBa0JDLFNBQVE7Ozs7OztrQ0FDMUMsOERBQUNGO3dCQUFLRyxNQUFLO3dCQUFXRCxTQUFROzs7Ozs7a0NBQzlCLDhEQUFDRjt3QkFBS0csTUFBSzt3QkFBbUJELFNBQVE7Ozs7OztrQ0FDdEMsOERBQUNFO3dCQUFLQyxLQUFJO3dCQUFhQyxNQUFLOzs7Ozs7a0NBQzVCLDhEQUFDRjt3QkFBS0MsS0FBSTt3QkFBYUMsTUFBSzt3QkFBNEJDLFdBQVc7Ozs7OztrQ0FDbkUsOERBQUNIO3dCQUNDRSxNQUFLO3dCQUNMRCxLQUFJOzs7Ozs7a0NBR04sOERBQUNEO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMRSxNQUFLO3dCQUNMQyxPQUFNOzs7Ozs7a0NBRVIsOERBQUNMO3dCQUFLQyxLQUFJO3dCQUFhQyxNQUFLO3dCQUFZRSxNQUFLO3dCQUFXQyxPQUFNOzs7Ozs7Ozs7Ozs7MEJBRWhFLDhEQUFDQzs7a0NBQ0MsOERBQUNoQiwrQ0FBSUE7Ozs7O2tDQUNMLDhEQUFDQyxxREFBVUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSW5CIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXE5hZGlhXFxEZXNrdG9wXFxiZXRIYWtuYWZlaFxcYmV0SGFrbmFmZWgtZmlyc3QtdnNcXGthZmZlblxccGFnZXNcXF9kb2N1bWVudC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBIZWFkLCBIdG1sLCBNYWluLCBOZXh0U2NyaXB0IH0gZnJvbSBcIm5leHQvZG9jdW1lbnRcIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRG9jdW1lbnQoKSB7XG4gIHJldHVybiAoXG4gICAgPEh0bWwgbGFuZz1cImhlXCIgZGlyPVwicnRsXCI+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPkthZmZlbiAtIENhZmUgJmFtcDsgUmVzdGF1cmFudCBSZWFjdCBOZXh0SlMgVGVtcGxhdGU8L3RpdGxlPlxuICAgICAgICA8bWV0YSBodHRwRXF1aXY9XCJDb250ZW50LVR5cGVcIiBjb250ZW50PVwidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04XCIgLz5cbiAgICAgICAgPG1ldGEgaHR0cEVxdWl2PVwiWC1VQS1Db21wYXRpYmxlXCIgY29udGVudD1cIklFPWVkZ2VcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwiSGFuZGhlbGRGcmllbmRseVwiIGNvbnRlbnQ9XCJ0cnVlXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwicHJlY29ubmVjdFwiIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwicHJlY29ubmVjdFwiIGhyZWY9XCJodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tXCIgY3Jvc3NPcmlnaW4gLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1NZXJpZW5kYTp3Z2h0QDQwMDs3MDAmZmFtaWx5PVJvYm90bzppdGFsLHdnaHRAMCwxMDA7MCwzMDA7MCw0MDA7MCw1MDA7MCw3MDA7MCw5MDA7MSwxMDA7MSwzMDA7MSw0MDA7MSw1MDA7MSw3MDA7MSw5MDAmZmFtaWx5PU9zd2FsZDp3Z2h0QDIwMDszMDA7NDAwOzUwMDs2MDA7NzAwJmRpc3BsYXk9c3dhcFwiXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgIC8+XG4gICAgICAgIHsvKiBCRUdJTiBDU1MgU1RZTEVTICovfVxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJzdHlsZXMvYm9vdHN0cmFwLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImZvbnRzL2ZvbnQtYXdlc29tZS9jc3MvZm9udC1hd2Vzb21lLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImZvbnRzL2ZvbnQtYXdlc29tZS9jc3MvbGluZS1hd2Vzb21lLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cInN0eWxlcy9hbmltYXRlLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cInN0eWxlcy9tYWduaWZpYy1wb3B1cC5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJzdHlsZXMvc3BsaXR0aW5nLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cInN0eWxlcy9zd2lwZXIuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJzdHlsZS5jc3NcIiB0eXBlPVwidGV4dC9jc3NcIiBtZWRpYT1cImFsbFwiIC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8Ym9keT5cbiAgICAgICAgPE1haW4gLz5cbiAgICAgICAgPE5leHRTY3JpcHQgLz5cbiAgICAgIDwvYm9keT5cbiAgICA8L0h0bWw+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiSGVhZCIsIkh0bWwiLCJNYWluIiwiTmV4dFNjcmlwdCIsIkRvY3VtZW50IiwibGFuZyIsImRpciIsInRpdGxlIiwibWV0YSIsImh0dHBFcXVpdiIsImNvbnRlbnQiLCJuYW1lIiwibGluayIsInJlbCIsImhyZWYiLCJjcm9zc09yaWdpbiIsInR5cGUiLCJtZWRpYSIsImJvZHkiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_document.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* reexport */ Document)
+});
+
+// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(5893);
+// EXTERNAL MODULE: ./node_modules/next/document.js
+var next_document = __webpack_require__(6859);
+;// CONCATENATED MODULE: ./pages/_document.js
+
+
+function Document() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_document.Html, {
+        lang: "he",
+        dir: "rtl",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_document.Head, {
+                children: [
+                    /*#__PURE__*/ jsx_runtime.jsx("title", {
+                        children: "Kaffen - Cafe & Restaurant React NextJS Template"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        httpEquiv: "Content-Type",
+                        content: "text/html; charset=utf-8"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        httpEquiv: "X-UA-Compatible",
+                        content: "IE=edge"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "HandheldFriendly",
+                        content: "true"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "preconnect",
+                        href: "https://fonts.googleapis.com"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "preconnect",
+                        href: "https://fonts.gstatic.com",
+                        crossOrigin: true
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        href: "https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap",
+                        rel: "stylesheet"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "styles/bootstrap.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "fonts/font-awesome/css/font-awesome.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "fonts/font-awesome/css/line-awesome.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "styles/animate.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "styles/magnific-popup.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "styles/splitting.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "styles/swiper.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "stylesheet",
+                        href: "style.css",
+                        type: "text/css",
+                        media: "all"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("body", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime.jsx(next_document.Main, {}),
+                    /*#__PURE__*/ jsx_runtime.jsx(next_document.NextScript, {})
+                ]
+            })
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-route-loader.js?page=%2F_document&absolutePagePath=private-next-pages%2F_document.js&preferredRegion=!
+
+        // Next.js Route Loader
+        
+        
+    
 
 /***/ }),
 
-/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
-/*!**********************************************************************!*\
-  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
-  \**********************************************************************/
+/***/ 4140:
 /***/ ((module) => {
 
-module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 9716:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/htmlescape.js");
+
+/***/ }),
+
+/***/ 6368:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/utils.js");
+
+/***/ }),
+
+/***/ 6724:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/constants.js");
+
+/***/ }),
+
+/***/ 8743:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/html-context.js");
+
+/***/ }),
+
+/***/ 8524:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 6689:
 /***/ ((module) => {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
-/***/ ((module) => {
-
-module.exports = require("react/jsx-dev-runtime");
-
-/***/ }),
-
-/***/ "react/jsx-runtime":
-/*!************************************!*\
-  !*** external "react/jsx-runtime" ***!
-  \************************************/
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
-
-/***/ }),
-
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
-/***/ ((module) => {
-
-module.exports = require("path");
 
 /***/ })
 
@@ -80,7 +187,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./pages/_document.js")));
+var __webpack_exports__ = __webpack_require__.X(0, [893,859], () => (__webpack_exec__(7669)));
 module.exports = __webpack_exports__;
 
 })();
