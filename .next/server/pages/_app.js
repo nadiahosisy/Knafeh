@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 (()=>{var e={};e.id=636,e.ids=[636],e.modules={8328:(e,s,r)=>{"use strict";r.r(s),r.d(s,{default:()=>l});var i=r(8732),t=r(2015);let a=()=>{let[e,s]=(0,t.useState)(!1);return(0,t.useEffect)(()=>{setTimeout(()=>{s(!0)},1500)},[]),(0,i.jsx)("div",{className:`preloader ${e?"loaded":""}`,children:(0,i.jsx)("div",{className:"centrize full-width",style:{display:e?"none":"table"},children:(0,i.jsx)("div",{className:"vertical-center",children:(0,i.jsxs)("div",{className:"spinner-logo",children:[(0,i.jsx)("img",{src:"images/knafeh-logo.png",alt:"image"}),(0,i.jsx)("div",{className:"spinner-dot",children:(0,i.jsx)("div",{className:"spinner-line"})})]})})})})};r(2880);let l=({Component:e,pageProps:s})=>(0,i.jsxs)(t.Fragment,{children:[(0,i.jsx)(a,{}),(0,i.jsx)(e,{...s})]})},2880:()=>{},2015:e=>{"use strict";e.exports=require("react")},8732:e=>{"use strict";e.exports=require("react/jsx-runtime")}};var s=require("../webpack-runtime.js");s.C(e);var r=s(s.s=8328);module.exports=r})();
-=======
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -10,8 +8,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-=======
->>>>>>> f759ddf (changes)
+
 (() => {
 var exports = {};
 exports.id = 888;
@@ -128,4 +125,3 @@ var __webpack_exports__ = __webpack_require__.X(0, [893], () => (__webpack_exec_
 module.exports = __webpack_exports__;
 
 })();
->>>>>>> f0dfc22 (change)
