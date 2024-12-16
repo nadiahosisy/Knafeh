@@ -1,1 +1,8 @@
-{}
+{
+  "menu-coffee.jsx -> @/src/components/CoffeeMenu": {
+    "id": "menu-coffee.jsx -> @/src/components/CoffeeMenu",
+    "files": [
+      "static/chunks/src_components_CoffeeMenu_js.js"
+    ]
+  }
+}

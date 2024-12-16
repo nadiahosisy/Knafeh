@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"menu-coffee.jsx -> @/src/components/CoffeeMenu":{"id":"menu-coffee.jsx -> @/src/components/CoffeeMenu","files":["static/chunks/src_components_CoffeeMenu_js.js"]}}

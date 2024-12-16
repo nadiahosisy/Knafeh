@@ -72,15 +72,15 @@ const PhotoGalleryIsotope = () => {
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("fast-food")}
-            data-href="fast-food"
+            onClick={handleFilterKeyChange("knafeh-menu")}
+            data-href="knafeh-menu"
           >
             Fast food
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("hot-coffee")}
-            data-href="hot-coffee"
+            onClick={handleFilterKeyChange("hot-drinks")}
+            data-href="hot-drinks"
           >
             Hot coffee
           </a>
@@ -100,7 +100,7 @@ const PhotoGalleryIsotope = () => {
           </a>
         </div>
         <div className="kf-gallery-items row">
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all knafeh-menu">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -140,7 +140,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all knafeh-menu">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -180,7 +180,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-drinks">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -200,7 +200,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all knafeh-menu">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -220,7 +220,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-drinks">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"

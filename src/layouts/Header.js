@@ -38,26 +38,35 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
             {/* social */}
             <div className="kf-h-social">
-              <a href="https://www.facebook.com/people/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%A2%D7%A1%D7%A4%D7%99%D7%94/61554417312987/" target="blank">
+              <a
+                href="https://www.facebook.com/people/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%A2%D7%A1%D7%A4%D7%99%D7%94/61554417312987/"
+                target="blank"
+              >
                 <i className="fab fa-facebook-f" />
               </a>
               <a href="https://www.instagram.com/bethaknafeh_/" target="blank">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%90%D7%91%D7%90-%D7%97%D7%95%D7%A9%D7%99-352-%D7%A2%D7%A1%D7%A4%D7%99%D7%90?to=place.w.23003463.229706953.456125" target="blank">
+              <a
+                href="https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%90%D7%91%D7%90-%D7%97%D7%95%D7%A9%D7%99-352-%D7%A2%D7%A1%D7%A4%D7%99%D7%90?to=place.w.23003463.229706953.456125"
+                target="blank"
+              >
                 <i className="fab fa-waze" />
               </a>
-              <a href="http://wa.me/972525380082
-                  " target="blank">
+              <a
+                href="http://wa.me/972525380082
+                  "
+                target="blank"
+              >
                 <i className="fab fa-whatsapp" />
               </a>
-        
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
             {/* location */}
             <div className="kf-h-group">
-              <i className="fas fa-map-marker-alt" /> <em>Location :</em> כביש ראשי, אבא חושי, עיספיא, 3000900
+              <i className="fas fa-map-marker-alt" /> <em>Location :</em> כביש
+              ראשי, אבא חושי, עיספיא, 3000900
             </div>
           </div>
         </div>
@@ -79,12 +88,12 @@ const Header = () => {
               <ul>
                 <li>
                   <Link href="/">
-                    Home
+                    בית
                     <i className="las la-angle-down" />
                   </Link>
                   <ul>
                     <li>
-                      <Link href="/">Coffee House</Link>
+                      <Link href="/">בית הכנאפה</Link>
                     </li>
                     <li>
                       <Link href="index-2">Restaurant</Link>
@@ -92,19 +101,19 @@ const Header = () => {
                   </ul>
                 </li>
                 <li>
-                  <Link href="about">About</Link>
+                  <Link href="about">הסיפור שלנו</Link>
                 </li>
                 <li>
                   <Link href="menu-coffee">
-                    Menu
+                    תפריט
                     <i className="las la-angle-down" />
                   </Link>
                   <ul>
                     <li>
-                      <Link href="menu-coffee">Menu Coffee</Link>
+                      <Link href="menu-coffee">תפריט קפה</Link>
                     </li>
                     <li>
-                      <Link href="menu-restaurant">Menu Restaurant</Link>
+                      <Link href="menu-restaurant">מתוקים</Link>
                     </li>
                   </ul>
                 </li>
@@ -179,35 +188,23 @@ const Header = () => {
         <div className="kf-main-menu">
           <ul>
             <li className="has-children">
-              <Link href="/">Home</Link>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("home")}
-              />
-              <ul style={activeLi("home")}>
-                <li>
-                  <Link href="/">Coffee House</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Restaurant</Link>
-                </li>
-              </ul>
+              <Link href="/">דף הבית</Link>
             </li>
             <li>
-              <Link href="about">About</Link>
+              <Link href="about">הסיפור שלנו</Link>
             </li>
             <li className="has-children">
-              <Link href="menu-coffee">Menu</Link>
+              <Link href="menu-coffee">תפריט</Link>
               <i
                 className="las la-angle-down"
                 onClick={() => activeMenuSet("Menu")}
               />
               <ul style={activeLi("Menu")}>
                 <li>
-                  <Link href="menu-coffee">Menu Coffee</Link>
+                  <Link href="menu-coffee">קפה</Link>
                 </li>
                 <li>
-                  <Link href="menu-restaurant">Menu Restaurant</Link>
+                  <Link href="menu-restaurant">מתוקים</Link>
                 </li>
               </ul>
             </li>
@@ -232,9 +229,6 @@ const Header = () => {
                 </li>
                 <li>
                   <Link href="gallery">Gallery</Link>
-                </li>
-                <li>
-                  <Link href="faq">FAQ</Link>
                 </li>
               </ul>
             </li>
@@ -274,32 +268,45 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* social */}
               <div className="kf-h-social">
-                <a href="facebook.com" target="blank">
+                <a
+                  href="https://www.facebook.com/people/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%A2%D7%A1%D7%A4%D7%99%D7%94/61554417312987/"
+                  target="blank"
+                >
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="twitter.com" target="blank">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="instagram.com" target="blank">
+                <a
+                  href="https://www.instagram.com/bethaknafeh_/"
+                  target="blank"
+                >
                   <i className="fab fa-instagram" />
                 </a>
-                <a href="youtube.com" target="blank">
-                  <i className="fab fa-youtube" />
+                <a
+                  href="https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%90%D7%91%D7%90-%D7%97%D7%95%D7%A9%D7%99-352-%D7%A2%D7%A1%D7%A4%D7%99%D7%90?to=place.w.23003463.229706953.456125"
+                  target="blank"
+                >
+                  <i className="fab fa-waze" />
+                </a>
+                <a
+                  href="http://wa.me/972525380082
+                  "
+                  target="blank"
+                >
+                  <i className="fab fa-whatsapp" />
                 </a>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* hours */}
               <div className="kf-h-group">
-                <i className="far fa-clock" /> <em>opening hours :</em> 08:00 am
-                - 09:00 pm
+                <i className="far fa-clock" /> <em>opening hours :</em> 10:00 am
+                - 10:00 pm
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* location */}
               <div className="kf-h-group">
-                <i className="fas fa-map-marker-alt" /> <em>Location :</em> 55
-                main street, new york
+                <i className="fas fa-map-marker-alt" /> <em>Location :</em> כביש
+                ראשי, אבא חושי, עיספיא, 3000900
               </div>
             </div>
           </div>
