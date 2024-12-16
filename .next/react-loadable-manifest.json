@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "pages\\gallery.jsx -> @/src/components/PhotoGalleryIsotope": {
     "id": 200,
     "files": [
@@ -11,6 +12,12 @@
     "files": [
       "static/chunks/334.cf0d47a541698fff.js",
       "static/chunks/166.165401366a5e51c4.js"
+=======
+  "menu-coffee.jsx -> @/src/components/CoffeeMenu": {
+    "id": "menu-coffee.jsx -> @/src/components/CoffeeMenu",
+    "files": [
+      "static/chunks/src_components_CoffeeMenu_js.js"
+>>>>>>> 7b1601d (merge with main)
     ]
   }
 }

@@ -30,6 +30,7 @@
       "static/chunks/pages/_app-cffabc4fb576b9c3.js"
     ],
     "/_error": [
+<<<<<<< HEAD
       "static/chunks/webpack-9fddbc2043fde794.js",
       "static/chunks/framework-a6b3d2fb26bce5d1.js",
       "static/chunks/main-a91b4584597b0ba0.js",
@@ -161,6 +162,16 @@
       "static/chunks/696-c842e4e6070b45ae.js",
       "static/chunks/951-515196fd103f67ed.js",
       "static/chunks/pages/team-33ea6ed8b74a49ad.js"
+=======
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+    ],
+    "/menu-coffee": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/menu-coffee.js"
+>>>>>>> 7b1601d (merge with main)
     ]
   },
   "ampFirstPages": []
